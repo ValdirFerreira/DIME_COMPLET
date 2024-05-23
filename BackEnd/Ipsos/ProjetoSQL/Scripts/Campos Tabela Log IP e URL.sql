@@ -1,0 +1,4 @@
+﻿ALTER TABLE tblLog ADD  URL varchar(500) NULL
+GO
+ALTER TABLE tblLog ADD  IP varchar(100) NULL
+

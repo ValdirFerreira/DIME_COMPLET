@@ -1,0 +1,2 @@
+﻿ALTER TABLE tblUser ADD DashboardBMR INT NOT NULL DEFAULT 0
+ALTER TABLE tblUser ADD DashboardVolumetria INT NOT NULL DEFAULT 0

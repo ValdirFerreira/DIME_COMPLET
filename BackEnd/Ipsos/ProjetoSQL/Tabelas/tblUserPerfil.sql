@@ -1,0 +1,20 @@
+﻿
+
+
+CREATE TABLE [dbo].[tblUserPerfil](
+	[CodUserPerfil] [int] IDENTITY(1,1) NOT NULL,
+	[DescUserPerfil] [varchar](50) NOT NULL,
+		
+
+PRIMARY KEY CLUSTERED 
+(
+	[IdTipoUser] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+
+
+
+
+

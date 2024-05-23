@@ -1,0 +1,9 @@
+﻿CREATE TABLE tblDePara( 
+Id  int IDENTITY(1,1) NOT NULL, 
+ColunaDe VARCHAR(8000),
+ColunaPara VARCHAR(8000),
+NameTabela VARCHAR(8000),
+Ativa INT  NOT NULL
+)
+
+
